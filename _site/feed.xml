@@ -6,8 +6,8 @@
 </description>
     <link>https://johnbrannstrom.github.io//</link>
     <atom:link href="https://johnbrannstrom.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Feb 2018 14:03:52 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Feb 2018 14:03:52 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Feb 2018 14:10:28 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Feb 2018 14:10:28 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -31,8 +31,14 @@ probably make it easier for next person working with the code.
 &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot; title=&quot;PEP8&quot;&gt;PEP8&lt;/a&gt; is a good choice for
 Python.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you have written some code and immediately see some improvements that can
+be done, do them at once and continue repeating this until you are satisfied.&lt;/p&gt;
 
+    &lt;p&gt;If you find this taking to long or that you find yourself changing something
+back and forth. It’s time to let it go :smile:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 08 Feb 2018 13:08:00 +0100</pubDate>
         <link>https://johnbrannstrom.github.io//software/2018/02/08/rules-of-engagement.html</link>
