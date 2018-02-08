@@ -6,8 +6,8 @@
 </description>
     <link>https://johnbrannstrom.github.io//</link>
     <atom:link href="https://johnbrannstrom.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Feb 2018 13:20:15 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Feb 2018 13:20:15 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Feb 2018 13:27:55 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Feb 2018 13:27:55 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;em&gt;Don’t catch all exceptions&lt;/em&gt; unless absolutely necessary, as &lt;em&gt;this will make
 your code very hard to debug&lt;/em&gt;. If you are catching all exceptions, you should
-log the entire traceback as shown in the example below:&lt;/li&gt;
+log the entire traceback as shown in the Python example below:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -24,6 +24,12 @@ log the entire traceback as shown in the example below:&lt;/li&gt;
       &lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;traceback&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format_exc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Use the prevalent code style for the language you are writing in. This will
+probably make it easier for next person working with the code.
+&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot; title=&quot;PEP8&quot;&gt;link&lt;/a&gt; is a good choice for
+Python.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 08 Feb 2018 13:08:00 +0100</pubDate>
         <link>https://johnbrannstrom.github.io//software/2018/02/08/rules-of-engagement.html</link>

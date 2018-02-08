@@ -7,10 +7,15 @@ categories: software
 
 * *Don't catch all exceptions* unless absolutely necessary, as *this will make
   your code very hard to debug*. If you are catching all exceptions, you should
-  log the entire traceback as shown in the example below:
+  log the entire traceback as shown in the Python example below:
   {% highlight python %}
   try:
       1/0
   except Exception:
       logger.log(traceback.format_exc())
   {% endhighlight %}
+
+* Use the prevalent code style for the language you are writing in. This will
+  probably make it easier for next person working with the code.
+  [link](https://www.python.org/dev/peps/pep-0008/ "PEP8") is a good choice for
+  Python.
