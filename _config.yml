@@ -9,7 +9,7 @@
 title: Software development
 email: john.brannstrom@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my place for software related topics that is to much text and to litle code.
+  This is my place for software related topics that is to much text and to little code.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://johnbrannstrom.github.io" # the base hostname & protocol for your site
 github_username:  johnbrannstrom
