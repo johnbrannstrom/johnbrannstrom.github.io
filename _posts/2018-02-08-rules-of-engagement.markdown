@@ -17,5 +17,5 @@ categories: software
 
 * Use the prevalent code style for the language you are writing in. This will
   probably make it easier for next person working with the code.
-  [link](https://www.python.org/dev/peps/pep-0008/ "PEP8") is a good choice for
+  [PEP8](https://www.python.org/dev/peps/pep-0008/ "PEP8") is a good choice for
   Python.
