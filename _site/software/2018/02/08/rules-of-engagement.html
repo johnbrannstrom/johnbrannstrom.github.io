@@ -63,22 +63,26 @@
 
   <div class="post-content" itemprop="articleBody">
     <ul>
-  <li><em>Don’t catch all exceptions</em> unless absolutely necessary, as <em>this will make
+  <li>
+    <p><em>Don’t catch all exceptions</em> unless absolutely necessary, as <em>this will make
 your code very hard to debug</em>. If you are catching all exceptions, you should
-log the entire traceback as shown in the Python example below:</li>
-</ul>
+log the entire traceback as shown in the Python example below:</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">          <span class="k">try</span><span class="p">:</span>
-              <span class="mi">1</span><span class="o">/</span><span class="mi">0</span>
-          <span class="k">except</span> <span class="nb">Exception</span><span class="p">:</span>
-              <span class="n">logger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">traceback</span><span class="o">.</span><span class="n">format_exc</span><span class="p">())</span>
-          </code></pre></figure>
-
-<ul>
-  <li>Use the prevalent code style for the language you are writing in. This will
+    <div class="highlighter-rouge"><pre class="highlight"><code>    ```python
+    try:
+        1/0
+    except Exception:
+        logger.log(traceback.format_exc())
+    ```
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Use the prevalent code style for the language you are writing in. This will
 probably make it easier for next person working with the code.
 <a href="https://www.python.org/dev/peps/pep-0008/" title="PEP8">PEP8</a> is a good choice for
-Python.</li>
+Python.</p>
+  </li>
 </ul>
 
 
