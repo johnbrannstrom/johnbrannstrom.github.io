@@ -6,22 +6,22 @@
 </description>
     <link>https://johnbrannstrom.github.io//</link>
     <atom:link href="https://johnbrannstrom.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Feb 2018 13:19:14 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Feb 2018 13:19:14 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Feb 2018 13:20:15 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Feb 2018 13:20:15 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Rules of engagement</title>
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;em&gt;Don’t catch all exceptions&lt;/em&gt; unless absolutely necessary, as &lt;em&gt;this will make
-the code very hard to debug&lt;/em&gt;. If you are catching all exceptions, you should
+your code very hard to debug&lt;/em&gt;. If you are catching all exceptions, you should
 log the entire traceback as shown in the example below:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-pyton&quot; data-lang=&quot;pyton&quot;&gt;  try:
-      1/0
-  except Exception:
-      logger.log(traceback.format_exc())
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;except&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;traceback&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format_exc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>

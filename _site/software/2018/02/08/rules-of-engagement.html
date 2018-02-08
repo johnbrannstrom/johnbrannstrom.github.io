@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Rules of engagement</title>
-  <meta name="description" content="  Don’t catch all exceptions unless absolutely necessary, as this will makethe code very hard to debug. If you are catching all exceptions, you shouldlog the...">
+  <meta name="description" content="  Don’t catch all exceptions unless absolutely necessary, as this will makeyour code very hard to debug. If you are catching all exceptions, you shouldlog th...">
 
   <link rel="stylesheet" href="//css/main.css">
   <link rel="canonical" href="https://johnbrannstrom.github.io//software/2018/02/08/rules-of-engagement.html">
@@ -64,14 +64,14 @@
   <div class="post-content" itemprop="articleBody">
     <ul>
   <li><em>Don’t catch all exceptions</em> unless absolutely necessary, as <em>this will make
-the code very hard to debug</em>. If you are catching all exceptions, you should
+your code very hard to debug</em>. If you are catching all exceptions, you should
 log the entire traceback as shown in the example below:</li>
 </ul>
 
-<figure class="highlight"><pre><code class="language-pyton" data-lang="pyton">  try:
-      1/0
-  except Exception:
-      logger.log(traceback.format_exc())
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="k">try</span><span class="p">:</span>
+      <span class="mi">1</span><span class="o">/</span><span class="mi">0</span>
+  <span class="k">except</span> <span class="nb">Exception</span><span class="p">:</span>
+      <span class="n">logger</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">traceback</span><span class="o">.</span><span class="n">format_exc</span><span class="p">())</span>
   </code></pre></figure>
 
 
