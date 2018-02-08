@@ -6,8 +6,8 @@
 </description>
     <link>https://johnbrannstrom.github.io//</link>
     <atom:link href="https://johnbrannstrom.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Feb 2018 14:02:19 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Feb 2018 14:02:19 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Feb 2018 14:03:52 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Feb 2018 14:03:52 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -18,14 +18,12 @@
 your code very hard to debug&lt;/em&gt;. If you are catching all exceptions, you should
 log the entire traceback as shown in the Python example below:&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    ```python
-    try:
-        1/0
-    except Exception:
-        logger.log(traceback.format_exc())
-    ```
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;python
+  try:
+    1/0
+  except Exception:
+    logger.log(traceback.format_exc())
+ &lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Use the prevalent code style for the language you are writing in. This will
