@@ -16,5 +16,5 @@ github_username:  johnbrannstrom
 
 # Build settings
 markdown: kramdown
-#gems:
-#  - jemoji
+gems:
+  - jemoji
