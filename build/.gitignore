@@ -1,7 +1,0 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-node_modules/underscore.string/Gemfile.lock
-Gemfile.lock
-package-lock.json
-node_modules/
