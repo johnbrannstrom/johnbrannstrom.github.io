@@ -8,8 +8,8 @@ layout: frontpage
 header:
   image_fullwidth: you-can-delete-me-header.png
 widget1:
-  title: "Widget 1"
-  url: 'http://domain.de/must-be-absolut-url-like-this-one/'
+  title: "Rules of engagement"
+  url: 'https://johnbrannstrom.github.io/rules-of-engagement/'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
   text: ''
 widget2:
