@@ -9,7 +9,7 @@ header:
   image_fullwidth: you-can-delete-me-header.png
 widget1:
   title: ''
-  url: 'https://johnbrannstrom.github.io/software%development/rules-of-engagement'
+  url: 'https://johnbrannstrom.github.io/software%20development/rules-of-engagement/'
   image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-homepage.png'
   text: ''
 widget2:
