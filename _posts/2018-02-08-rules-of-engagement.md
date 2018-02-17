@@ -21,6 +21,12 @@ image:
   url: "https://johnbrannstrom.github.io/images/"
 ---
 
+header:
+    image_fullwidth: "rules-of-engagement-header.png"
+    caption: Israel Palacio
+    caption_url: https://unsplash.com/photos/IprD0z0zqss
+
+insert content here
 
 
  [1]: #
