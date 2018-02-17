@@ -7,21 +7,21 @@
 layout: frontpage
 header:
   image_fullwidth: you-can-delete-me-header.png
-widget1:
-  title: ''
-  url: 'https://johnbrannstrom.github.io/software%20development/rules-of-engagement/'
-  image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-homepage.png'
-  text: ''
-widget2:
-  title: "Widget 2"
-  url: 'https://johnbrannstrom.github.io/rules-of-engagement'
-  image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
-widget3:
-  title: "Widget 3"
-  url: 'https://johnbrannstrom.github.io/rules-of-engagement'
-  image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-  text: ''
+# widget1:
+#   title: ''
+#   url: 'https://johnbrannstrom.github.io/software%20development/rules-of-engagement/'
+#   image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-homepage.png'
+#   text: ''
+# widget2:
+#   title: "Widget 2"
+#   url: 'https://johnbrannstrom.github.io/rules-of-engagement'
+#   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
+#   text: ''
+# widget3:
+#   title: "Widget 3"
+#   url: 'https://johnbrannstrom.github.io/rules-of-engagement'
+#   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
+#   text: ''
 #
 # Use the call for action to show a button on the frontpage
 #
