@@ -1,23 +1,18 @@
 ---
 layout: page
-
-header:
-    image_fullwidth: "rules-of-engagement-header.png"
-    caption: Israel Palacio
-    caption_url: https://unsplash.com/photos/IprD0z0zqss
-
-insert content here
-
 #
 # Content
 #
-subheadline: "Software development"
 title: "Rules of engagement"
 teaser: "List of rules i follow when designing and writing software."
 categories:
   - Software development
 tags:
   - Software development
+header:
+    image_fullwidth: "rules-of-engagement-header.png"
+    caption: Israel Palacio
+    caption_url: https://unsplash.com/photos/IprD0z0zqss
 #
 # Styling
 #
