@@ -26,14 +26,14 @@
 #
 #   Navigation to the right › side: right
 #
-- title: "Info"
-  url: "/info/"
-  side: right
-
-- title: "Search"
-  url: "/search/"
-  side: right
-
-- title: "Contact"
-  url: "/contact/"
-  side: right
+#- title: "Info"
+#  url: "/info/"
+#  side: right
+#
+#- title: "Search"
+#  url: "/search/"
+#  side: right
+#
+#- title: "Contact"
+#  url: "/contact/"
+#  side: right
