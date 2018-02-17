@@ -24,6 +24,10 @@ image:
   url: "https://johnbrannstrom.github.io/images/"
 ---
 
+insert content here
+
+the list of rules...
+
 
  [1]: #
  [2]: #
