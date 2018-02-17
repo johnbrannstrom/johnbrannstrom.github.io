@@ -10,7 +10,7 @@ header:
 widget1:
   title: ''
   url: 'https://johnbrannstrom.github.io/software%development/rules-of-engagement'
-  image: 'https://johnbrannstrom.github.io/images/rules-of-homepage.png'
+  image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-homepage.png'
   text: ''
 widget2:
   title: "Widget 2"
