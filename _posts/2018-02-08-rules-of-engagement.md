@@ -15,7 +15,7 @@ tags:
 #
 image:
   header: "rules-of-engagement-header.png"
-  thumb: "rules-of-engagement-thump.png"
+  thumb: "rules-of-engagement-thumb.png"
   homepage: "rules-of-engagement-homepage.png"
   caption: ""
   url: "https://johnbrannstrom.github.io/images/"
