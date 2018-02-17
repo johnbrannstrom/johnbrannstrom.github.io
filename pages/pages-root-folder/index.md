@@ -9,17 +9,17 @@ header:
   image_fullwidth: you-can-delete-me-header.png
 widget1:
   title: ''
-  url: 'https://johnbrannstrom.github.io/rules-of-engagement/'
-  image: 'https://johnbrannstrom.github.io/images/rules-of-engagement.png'
+  url: 'https://johnbrannstrom.github.io/software%development/rules-of-engagement'
+  image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-302x183.png'
   text: ''
 widget2:
   title: "Widget 2"
-  url: 'https://johnbrannstrom.github.io/rules-of-engagement/'
+  url: 'https://johnbrannstrom.github.io/rules-of-engagement'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
   text: ''
 widget3:
   title: "Widget 3"
-  url: 'https://johnbrannstrom.github.io/rules-of-engagement/'
+  url: 'https://johnbrannstrom.github.io/rules-of-engagement'
   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
   text: ''
 #

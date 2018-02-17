@@ -14,10 +14,10 @@ tags:
 # Styling
 #
 image:
-  header: ""
-  thumb: "you-can-delete-me-thumb.png"
-  homepage: "you-can-delete-me-homepage.png"
-  caption: "Caption?"
+  header: "rules-of-engagement-header.png"
+  thumb: "rules-of-engagement-thump.png"
+  homepage: "rules-of-engagement-homepage.png"
+  caption: ""
   url: "http://phlow.de/"
 ---
 
