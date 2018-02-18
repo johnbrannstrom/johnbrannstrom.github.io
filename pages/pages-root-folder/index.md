@@ -7,16 +7,16 @@
 layout: frontpage
 header:
   image_fullwidth: john-screen-header.gif
-# widget1:
-#   title: ''
-#   url: 'https://johnbrannstrom.github.io/software%20development/rules-of-engagement/'
-#   image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-homepage.jpg'
-#   text: ''
-# widget2:
-#   title: "Widget 2"
-#   url: 'https://johnbrannstrom.github.io/rules-of-engagement'
-#   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-#   text: ''
+widget1:
+  title: 'Rules of engagement'
+  url: 'https://johnbrannstrom.github.io/software%20development/rules-of-engagement/'
+  image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-widget.jpg'
+  text: ''
+widget2:
+  title: "Version management software lazydog"
+  url: 'https://johnbrannstrom.github.io/vcs-lazydog'
+  image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-widget.jpg'
+  text: ''
 # widget3:
 #   title: "Widget 3"
 #   url: 'https://johnbrannstrom.github.io/rules-of-engagement'
