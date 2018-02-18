@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: you-can-delete-me-header.png
+  image_fullwidth: john-screen-header.gif
 # widget1:
 #   title: ''
 #   url: 'https://johnbrannstrom.github.io/software%20development/rules-of-engagement/'
