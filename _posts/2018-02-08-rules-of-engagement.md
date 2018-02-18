@@ -10,16 +10,16 @@ categories:
 tags:
   - Software development
 header:
-    image_fullwidth: "rules-of-engagement-header.png"
+    image_fullwidth: "rules-of-engagement-header.jpg"
     caption: Israel Palacio
     caption_url: https://unsplash.com/photos/IprD0z0zqss
 #
 # Styling
 #
 image:
-  header: "rules-of-engagement-header.png"
-  thumb: "rules-of-engagement-thumb.png"
-  homepage: "rules-of-engagement-homepage.png"
+  header: "rules-of-engagement-header.jpg"
+  thumb: "rules-of-engagement-thumb.jpg"
+  homepage: "rules-of-engagement-homepage.jpg"
   caption: ""
   url: "https://johnbrannstrom.github.io/images/"
 ---
