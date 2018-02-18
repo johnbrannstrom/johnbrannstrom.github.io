@@ -4,7 +4,7 @@ layout: page
 # Content
 #
 title: "Rules of engagement"
-teaser: "List of rules i follow when designing and writing software."
+teaser: "List of rules for designing and writing software."
 categories:
   - Software development
 tags:
