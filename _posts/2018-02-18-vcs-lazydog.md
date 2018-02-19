@@ -17,7 +17,7 @@ tags:
 #
 image:
   header: ""
-  thumb: "vcs-thumb.jpg"
+  thumb: "vcs-lazydog-thumb.jpg"
   homepage: ""
   caption: ""
   url: "https://johnbrannstrom.github.io/images/"
