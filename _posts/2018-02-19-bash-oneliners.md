@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 header:
   image_fullwidth: john-screen-header.gif
 title: "BASH oneliners"
