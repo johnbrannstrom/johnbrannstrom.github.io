@@ -13,7 +13,7 @@ widget1:
   image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-widget.jpg'
   text: ''
 widget2:
-  title: "Version management software lazydog"
+  title: "Version Control Software lazydog"
   url: 'https://johnbrannstrom.github.io/vcs-lazydog'
   image: 'https://johnbrannstrom.github.io/images/vcs-lazydog-widget.jpg'
   text: ''
