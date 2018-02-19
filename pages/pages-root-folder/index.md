@@ -9,19 +9,19 @@ header:
   image_fullwidth: john-screen-header.gif
 widget1:
   title: 'Rules of engagement'
-  url: 'https://johnbrannstrom.github.io/software%20development/rules-of-engagement/'
+  url: 'https://johnbrannstrom.github.io/rules-of-engagement/'
   image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-widget.jpg'
   text: ''
 widget2:
   title: "Version Control Software lazydog"
-  url: 'https://johnbrannstrom.github.io/vcs-lazydog'
+  url: 'https://johnbrannstrom.github.io/vcs-lazydog/'
   image: 'https://johnbrannstrom.github.io/images/vcs-lazydog-widget.jpg'
   text: ''
-# widget3:
-#   title: "Widget 3"
-#   url: 'https://johnbrannstrom.github.io/rules-of-engagement'
-#   image: 'http://dummyimage.com/302x183/334d5c/efc94c.png&text=Placeholder'
-#   text: ''
+widget3:
+  title: "BASH oneliners"
+  url: 'https://johnbrannstrom.github.io/bash-oneliners'
+  image: 'https://johnbrannstrom.github.io/images/bash-oneliners-widget.jpg'
+  text: ''
 #
 # Use the call for action to show a button on the frontpage
 #
