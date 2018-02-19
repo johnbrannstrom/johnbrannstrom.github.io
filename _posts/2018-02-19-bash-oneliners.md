@@ -2,8 +2,8 @@
 layout: page
 header:
   image_fullwidth: john-screen-header.gif
-title: "BASH one liners"
-teaser: "Powerful BASH one liners for performing common tasks."
+title: "BASH oneliners"
+teaser: "Powerful BASH oneliners for performing common tasks."
 tags:
   - Software development
 #
