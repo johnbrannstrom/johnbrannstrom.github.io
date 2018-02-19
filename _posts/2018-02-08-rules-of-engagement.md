@@ -46,7 +46,7 @@ except Exception:
     that can be done, do them at once and continue repeating this until
     you are satisfied.
 
-    If you find this taking to long or that you find yourself changing
+    If you find this taking to long or you find yourself changing
     something back and forth. It's time to let it go :smile:
   </li>
 
