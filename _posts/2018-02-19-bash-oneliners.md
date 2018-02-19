@@ -17,19 +17,7 @@ image:
 ---
 
 Regex replace row in file
-sed -i 's/\<regex that matches row>/<string to replace matched row with>/' </file/to/replace/in>
+sed -i 's/\&lt;regex that matches row&gt;/&lt;string to replace matched row with&gt;/' &lt;/file/to/replace/in&gt;
 
 Replace all occurrences of string in file
-sed -i 's/<string to replace>/<string to insert>/g' </file/to/replace/in>.
-
-
- [1]: #
- [2]: #
- [3]: #
- [4]: #
- [5]: #
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
+sed -i 's/&lt;string to replace&gt;/&lt;string to insert&gt;/g' &lt;/file/to/replace/in&gt;.

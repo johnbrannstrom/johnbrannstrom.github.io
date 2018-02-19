@@ -25,15 +25,3 @@ image:
 insert content here
 
 the list of rules...
-
-
- [1]: #
- [2]: #
- [3]: #
- [4]: #
- [5]: #
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
