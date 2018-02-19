@@ -22,6 +22,10 @@ image:
 <ol>
 
   <li>
+    Code should not look nice, it should be easy to understand.
+  </li>
+
+  <li>
     <p><strong>Don't catch all exceptions</strong> unless absolutely
     necessary, as <strong>this will make your code very hard to debug
     </strong>. If you are catching all exceptions, you should log the
