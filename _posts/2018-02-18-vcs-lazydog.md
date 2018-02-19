@@ -7,9 +7,6 @@ teaser: "Lazydog for Version Control Software. Some of the most common operation
 tags:
   - VCS
   - Version Control Software
-#
-# Styling
-#
 image:
   header: ""
   thumb: "vcs-lazydog-thumb.jpg"

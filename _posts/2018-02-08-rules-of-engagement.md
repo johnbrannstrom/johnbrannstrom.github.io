@@ -11,9 +11,6 @@ header:
     image_fullwidth: "rules-of-engagement-header.jpg"
     caption: Israel Palacio
     caption_url: https://unsplash.com/photos/IprD0z0zqss
-#
-# Styling
-#
 image:
   header: "rules-of-engagement-header.jpg"
   thumb: "rules-of-engagement-thumb.jpg"
