@@ -1,8 +1,7 @@
 ---
 layout: page
-#
-# Content
-#
+header:
+  image_fullwidth: john-screen-header.gif
 subheadline: ""
 title: "Version Control Software lazydog"
 teaser: "Lazydog for Version Control Software. Some of the most common operations working with a VCS."

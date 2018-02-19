@@ -1,8 +1,7 @@
 ---
 layout: page
-#
-# Content
-#
+header:
+  image_fullwidth: john-screen-header.gif
 title: "BASH one liners"
 teaser: "Powerful BASH one liners for performing common tasks."
 tags:
