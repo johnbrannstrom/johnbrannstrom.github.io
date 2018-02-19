@@ -5,8 +5,6 @@ layout: page
 #
 title: "Rules of engagement"
 teaser: "List of rules for designing and writing software."
-categories:
-  - Software development
 tags:
   - Software development
 header:
