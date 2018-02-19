@@ -22,18 +22,16 @@ image:
 <ol>
 
   <li>
-    <strong>Don't catch all exceptions</strong> unless absolutely
+    <p><strong>Don't catch all exceptions</strong> unless absolutely
     necessary, as <strong>this will make your code very hard to debug
     </strong>. If you are catching all exceptions, you should log the
-    entire traceback as shown in the Python example below:
-
-    <pre>
-      python
-      try:
-        1/0
-      except Exception:
-        logger.log(traceback.format_exc())
-    </pre>
+    entire traceback as shown in the Python example below:</p>
+    <p><pre>
+try:
+    1/0
+except Exception:
+    logger.log(traceback.format_exc())
+    </pre></p>
   </li>
 
   <li>
