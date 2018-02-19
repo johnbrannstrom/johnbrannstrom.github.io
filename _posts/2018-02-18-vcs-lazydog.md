@@ -19,10 +19,16 @@ image:
 ---
 
 <table>
+
   <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
+
   <tr>
     <td>Checkout and switch to &lt;remote_branch&gt;</td>
-    <td>git checkout -b &lt;local_branch&gt; origin &lt;remote_branch&gt;</td>
-    <td></td>
+    <td><pre>git checkout -b &lt;local_branch&gt; origin &lt;remote_branch&gt;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr><td>Pull</td><td><pre>git pull</pre></td><td><pre>hg pull</pre></td></tr>
+
   </tr>
 </table>
