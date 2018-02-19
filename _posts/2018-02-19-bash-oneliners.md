@@ -16,9 +16,11 @@ image:
   url: "https://johnbrannstrom.github.io/images/"
 ---
 
-insert content here
+Regex replace row in file
+sed -i 's/\<regex that matches row>/<string to replace matched row with>/' </file/to/replace/in>
 
-the list of rules...
+Replace all occurrences of string in file
+sed -i 's/<string to replace>/<string to insert>/g' </file/to/replace/in>.
 
 
  [1]: #

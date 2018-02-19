@@ -23,7 +23,7 @@ image:
   <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
   <tr>
     <td>Checkout and switch to &lt;remote_branch&gt;</td>
-    <td>git checkout -b &lt;local_branch&lt; origin/<remote_branch></td>
+    <td>git checkout -b &lt;local_branch&gt; origin &lt;remote_branch&gt;</td>
     <td></td>
   </tr>
 </table>
