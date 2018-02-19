@@ -23,6 +23,14 @@ image:
   url: "https://johnbrannstrom.github.io/images/"
 ---
 
+<table>
+  <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
+  <tr>
+    <td>Checkout and switch to <remote_branch></td>
+    <td>git checkout -b <local_branch> origin/<remote_branch></td>
+    <td></td>
+  </tr>
+</table>
 
 
  [1]: #
