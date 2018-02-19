@@ -15,7 +15,7 @@ widget1:
 widget2:
   title: "Version management software lazydog"
   url: 'https://johnbrannstrom.github.io/vcs-lazydog'
-  image: 'https://johnbrannstrom.github.io/images/rules-of-engagement-widget.jpg'
+  image: 'https://johnbrannstrom.github.io/images/vcs-lazydog-widget.jpg'
   text: ''
 # widget3:
 #   title: "Widget 3"

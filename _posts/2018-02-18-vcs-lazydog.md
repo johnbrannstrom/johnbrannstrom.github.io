@@ -4,14 +4,14 @@ layout: page
 # Content
 #
 subheadline: ""
-title: "Version management software lazydog"
-teaser: "Version management software lazydog."
+title: "Version Control Software lazydog"
+teaser: "Lazydog for Version Control Software. Some of the most common operations working with a VCS."
 categories:
   - VCS
-  - Version management software
+  - Version Control Software
 tags:
   - VCS
-  - Version management software
+  - Version Control Software
 #
 # Styling
 #
