@@ -52,7 +52,7 @@ except Exception:
 
     If you find this taking to long or you find yourself changing
     something back and forth. It's time to let it go <img width="20px"
-    height="20px" src="images/smiley.png">
+    height="20px" src="/images/smiley.png">
   </li>
 
 </ol>
