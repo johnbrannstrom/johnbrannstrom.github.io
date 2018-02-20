@@ -21,9 +21,9 @@ image:
 
 <ol>
 
-  <li>
+  <li><p>
     Code should not look nice, it should be easy to understand.
-  </li>
+  </p></li>
 
   <li>
     <p><strong>Don't catch all exceptions</strong> unless absolutely
@@ -38,14 +38,14 @@ except Exception:
     </pre></p>
   </li>
 
-  <li>
+  <li><p>
     Use the prevalent code style for the language you are writing in.
     This will probably make it easier for next person working with the
     code. <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a>
     is a good choice for Python.
-  </li>
+  </p></li>
 
-  <li>
+  <li><p>
     If you have written some code and immediately see some improvements
     that can be done, do them at once and continue repeating this until
     you are satisfied.
@@ -53,6 +53,6 @@ except Exception:
     If you find this taking to long or you find yourself changing
     something back and forth. It's time to let it go <img width="20px"
     height="20px" src="/images/smiley.png">
-  </li>
+  </p></li>
 
 </ol>
