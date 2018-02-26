@@ -82,6 +82,12 @@ image:
   </tr>
 
   <tr>
+    <td>Compare &lt;local_file&gt; to remote file</td>
+    <td><pre></pre></td>
+    <td><pre>hg diff &lt;local_file&gt;</pre></td>
+  </tr>
+
+  <tr>
     <td>Show changed files in commit</td>
     <td><pre>git diff-tree --no-commit-id --name-only -r</pre></td>
     <td><pre></pre></td>
