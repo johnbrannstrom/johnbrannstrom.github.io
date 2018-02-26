@@ -23,6 +23,8 @@ image:
 
   <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg heads</pre></td></tr>
 
+  <tr><td>Show local changes</td><td><pre>git status</pre></td><td><pre>hg status</pre></td></tr>
+
   <tr>
     <td>Checkout and switch to &lt;remote_branch&gt;</td>
     <td><pre>git checkout -b &lt;local_branch&gt; origin/&lt;remote_branch&gt;</pre></td>
