@@ -21,6 +21,8 @@ image:
 
   <tr><td>Pull</td><td><pre>git pull</pre></td><td><pre>hg pull</pre></td></tr>
 
+  <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg heads</pre></td></tr>
+
   <tr>
     <td>Checkout and switch to &lt;remote_branch&gt;</td>
     <td><pre>git checkout -b &lt;local_branch&gt; origin/&lt;remote_branch&gt;</pre></td>
