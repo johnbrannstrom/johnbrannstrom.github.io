@@ -21,7 +21,7 @@ image:
 
   <tr><td>Pull</td><td><pre>git pull</pre></td><td><pre>hg pull</pre></td></tr>
 
-  <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg branch -a</pre></td></tr>
+  <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg branches -a</pre></td></tr>
 
   <tr><td>Show local changes</td><td><pre>git status</pre></td><td><pre>hg status</pre></td></tr>
 
