@@ -20,6 +20,12 @@ image:
   <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
 
   <tr><td>Pull</td><td><pre>git pull</pre></td><td><pre>hg pull</pre></td></tr>
+  
+  <tr>
+    <td>Pull specified &lt;remote_branch&gt; branch</td>
+    <td><pre>git pull</pre></td>
+    <td><pre>hg pull -b &lt;remote_branch&gt;</pre></td><
+  /tr>
 
   <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg branches -a</pre></td></tr>
 
