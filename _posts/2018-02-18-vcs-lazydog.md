@@ -31,7 +31,7 @@ image:
 
   <tr><td>Show local changes</td><td><pre>git status</pre></td><td><pre>hg status</pre></td></tr>
 
-  <tr><td>Show current active local branch</td><td><pre>git status</pre></td><td><pre>hg branch</pre></td></tr>
+  <tr><td>Show active local branch</td><td><pre>git status</pre></td><td><pre>hg branch</pre></td></tr>
 
   <tr>
     <td>Checkout and switch to &lt;remote_branch&gt;</td>
