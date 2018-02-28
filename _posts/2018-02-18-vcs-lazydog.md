@@ -23,7 +23,7 @@ image:
   
   <tr>
     <td>Pull specified &lt;remote_branch&gt; branch</td>
-    <td><pre>git pull</pre></td>
+    <td><pre></pre></td>
     <td><pre>hg pull -b &lt;remote_branch&gt;</pre></td>
   </tr>
 
