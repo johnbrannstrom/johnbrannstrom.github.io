@@ -19,6 +19,10 @@ image:
 
   <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
 
+  <tr><td>Commit changes with &lt;commit&gt; message</td><td><pre>git commit -m "&lt;commit&gt;"</pre></td><td><pre>hg commit -m "&lt;commit&gt;"</pre></td></tr>
+
+  <tr><td>Push active branch to remote repo</td><td><pre>git push</pre></td><td><pre>hg push -r .</pre></td></tr>
+
   <tr><td>Change active &lt;local_branch&gt;</td><td><pre>git checkout &lt;remote_branch&gt;</pre></td><td><pre>hg update &lt;local_branch&gt;</pre></td></tr>
 
   <tr><td>Merge <strong>all</strong> remote branches into local repo</td><td><pre>git pull</pre></td><td><pre>hg pull -u</pre></td></tr>
