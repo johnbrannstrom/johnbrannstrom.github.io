@@ -19,13 +19,15 @@ image:
 
   <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
 
+  <tr><td>Change active &lt;local_branch&gt;</td><td><pre>git checkout &lt;remote_branch&gt;</pre></td><td><pre>hg update &lt;local_branch&gt;</pre></td></tr>
+
   <tr><td>Merge remote changes into local repo</td><td><pre>git pull</pre></td><td><pre>hg pull -u</pre></td></tr>
   
   <tr><td>Get remote changes</td><td><pre>git fetch</pre></td><td><pre>hg pull</pre></td></tr>
   
   <tr>
-    <td>Pull specified &lt;remote_branch&gt; branch</td>
-    <td><pre></pre></td>
+    <td>Pull specified &lt;remote_branch&gt;</td>
+    <td><pre>git pull</pre></td>
     <td><pre>hg pull -b &lt;remote_branch&gt;</pre></td>
   </tr>
 
