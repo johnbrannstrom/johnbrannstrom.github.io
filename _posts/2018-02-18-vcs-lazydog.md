@@ -31,6 +31,8 @@ image:
     <td><pre>hg pull -u -b &lt;remote_branch&gt;</pre></td>
   </tr>
 
+  <tr><td>Merge &lt;local_branch&gt; into active branch</td><td><pre>git merge &lt;local_branch&gt;</pre></td><td><pre>hg merge &lt;local_branch&gt;</pre></td></tr>
+
   <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg branches -a</pre></td></tr>
 
   <tr><td>Show local changes</td><td><pre>git status</pre></td><td><pre>hg status</pre></td></tr>
