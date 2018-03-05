@@ -54,13 +54,13 @@ image:
   <tr>
     <td>Create &lt;local_branch&gt; from current branch</td>
     <td><pre>git checkout -b &lt;local_branch&gt;</pre></td>
-    <td><pre></pre></td>
+    <td><pre>hg branch &lt;local_branch&gt;</pre></td>
   </tr>
 
   <tr>
     <td>Create &lt;remote_branch&gt; for current branch</td>
     <td><pre>git push -u origin &lt;remote_branch&gt;</pre></td>
-    <td><pre></pre></td>
+    <td><pre>hg push --new-branch -b &lt;local_branch&gt;</pre></td>
   </tr>
 
   <tr>
