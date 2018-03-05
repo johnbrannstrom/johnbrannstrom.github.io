@@ -21,14 +21,14 @@ image:
 
   <tr><td>Change active &lt;local_branch&gt;</td><td><pre>git checkout &lt;remote_branch&gt;</pre></td><td><pre>hg update &lt;local_branch&gt;</pre></td></tr>
 
-  <tr><td>Merge remote changes into local repo</td><td><pre>git pull</pre></td><td><pre>hg pull -u</pre></td></tr>
+  <tr><td>Merge <strong>all</strong> remote branches into local repo</td><td><pre>git pull</pre></td><td><pre>hg pull -u</pre></td></tr>
   
   <tr><td>Get remote changes</td><td><pre>git fetch</pre></td><td><pre>hg pull</pre></td></tr>
   
   <tr>
-    <td>Pull specified &lt;remote_branch&gt;</td>
+    <td>Merge specified &lt;remote_branch&gt; into local repo</td>
     <td><pre>git pull</pre></td>
-    <td><pre>hg pull -b &lt;remote_branch&gt;</pre></td>
+    <td><pre>hg pull -u -b &lt;remote_branch&gt;</pre></td>
   </tr>
 
   <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg branches -a</pre></td></tr>
