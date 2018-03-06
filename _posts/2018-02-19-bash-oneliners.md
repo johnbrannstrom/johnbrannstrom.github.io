@@ -20,4 +20,7 @@ image:
 <pre>sed -i 's/\&lt;regex that matches row&gt;/&lt;string to replace matched row with&gt;/' &lt;/file/to/replace/in&gt;</pre>
 
 <h3>Replace all occurrences of string in file</h3>
-<pre>sed -i 's/&lt;string to replace&gt;/&lt;string to insert&gt;/g' &lt;/file/to/replace/in&gt;.</pre>
+<pre>sed -i 's/&lt;string to replace&gt;/&lt;string to insert&gt;/g' &lt;/file/to/replace/in&gt;</pre>
+
+<h3>Set date and time</h3>
+<pre>date -s '2014-12-25 12:34:56'</pre>
