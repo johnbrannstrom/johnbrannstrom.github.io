@@ -19,6 +19,8 @@ image:
 
   <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
 
+  <tr><td>Add &lt;new_file&gt;</td><td><pre>git add &lt;new_file&gt;</pre></td><td><pre>hg add &lt;new_file&gt;</pre></td></tr>
+
   <tr><td>Commit changes with &lt;commit&gt; message</td><td><pre>git commit -m "&lt;commit&gt;"</pre></td><td><pre>hg commit -m "&lt;commit&gt;"</pre></td></tr>
 
   <tr><td>Push active branch to remote repo</td><td><pre>git push</pre></td><td><pre>hg push -r .</pre></td></tr>
