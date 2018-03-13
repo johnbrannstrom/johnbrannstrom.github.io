@@ -19,6 +19,8 @@ image:
 
   <tr><th>Action</th><th>Git</th><th>Mercurial</th></tr>
 
+  <tr><td>Remove file from VCS control</td><td><pre>git rm --cached &lt;file_name&gt;</pre></td><td><pre></pre></td></tr>
+
   <tr><td>Add &lt;new_file&gt;</td><td><pre>git add &lt;new_file&gt;</pre></td><td><pre>hg add &lt;new_file&gt;</pre></td></tr>
 
   <tr><td>Commit changes with &lt;commit&gt; message</td><td><pre>git commit -m "&lt;commit&gt;"</pre></td><td><pre>hg commit -m "&lt;commit&gt;"</pre></td></tr>
