@@ -23,15 +23,35 @@ image:
 
   <tr><td>Add &lt;new_file&gt;</td><td><pre>git add &lt;new_file&gt;</pre></td><td><pre>hg add &lt;new_file&gt;</pre></td></tr>
 
-  <tr><td>Commit changes with &lt;commit&gt; message</td><td><pre>git commit -m "&lt;commit&gt;"</pre></td><td><pre>hg commit -m "&lt;commit&gt;"</pre></td></tr>
+  <tr>
+    <td>Commit changes with &lt;commit&gt; message</td>
+    <td><pre>git commit -m "&lt;commit&gt;"</pre></td>
+    <td><pre>hg commit -m "&lt;commit&gt;"</pre></td>
+  </tr>
 
-  <tr><td>Push active branch to remote repo</td><td><pre>git push</pre></td><td><pre>hg push -r .</pre></td></tr>
+  <tr>
+    <td>Push active branch to remote repo</td>
+    <td><pre>git push</pre></td>
+    <td><pre>hg push -r .</pre></td>
+  </tr>
 
-  <tr><td>Change active &lt;local_branch&gt;</td><td><pre>git checkout &lt;local_branch&gt;</pre></td><td><pre>hg update &lt;local_branch&gt;</pre></td></tr>
+  <tr>
+    <td>Change active &lt;local_branch&gt;</td>
+    <td><pre>git checkout &lt;local_branch&gt;</pre></td>
+    <td><pre>hg update &lt;local_branch&gt;</pre></td>
+  </tr>
 
-  <tr><td>Merge <strong>all</strong> remote branches into local repo</td><td><pre>git pull</pre></td><td><pre>hg pull -u</pre></td></tr>
+  <tr>
+    <td>Merge <strong>all</strong> remote branches into local repo</td>
+    <td><pre>git pull</pre></td>
+    <td><pre>hg pull -u</pre></td>
+  </tr>
   
-  <tr><td>Get remote changes</td><td><pre>git fetch</pre></td><td><pre>hg pull</pre></td></tr>
+  <tr>
+    <td>Get remote changes</td>
+    <td><pre>git fetch</pre></td>
+    <td><pre>hg pull</pre></td>
+  </tr>
   
   <tr>
     <td>Merge specified &lt;remote_branch&gt; into local repo</td>
@@ -45,11 +65,23 @@ image:
     <td><pre>hg merge &lt;local_branch&gt;</pre></td>
   </tr>
 
-  <tr><td>Show active branches</td><td><pre>git branch -a</pre></td><td><pre>hg branches -a</pre></td></tr>
+  <tr>
+    <td>Show active branches</td>
+    <td><pre>git branch -a</pre></td>
+    <td><pre>hg branches -a</pre></td>
+  </tr>
 
-  <tr><td>Show local changes</td><td><pre>git status</pre></td><td><pre>hg status</pre></td></tr>
+  <tr>
+    <td>Show local changes</td>
+    <td><pre>git status</pre></td>
+    <td><pre>hg status</pre></td>
+  </tr>
 
-  <tr><td>Show active local branch</td><td><pre>git status</pre></td><td><pre>hg branch</pre></td></tr>
+  <tr>
+    <td>Show active local branch</td>
+    <td><pre>git status</pre></td>
+    <td><pre>hg branch</pre></td>
+  </tr>
 
   <tr>
     <td>Checkout and switch to &lt;remote_branch&gt;</td>
@@ -113,8 +145,8 @@ image:
 
   <tr>
     <td>List changed files comparing &lt;local_branch&gt; to &lt;remote_branch&gt;</td>
-    <td><pre>git log origin/&lt;local_branch&gt;..&lt;remote_branch&gt; 
---name-only --pretty="format:" | sort | uniq</pre></td>
+    <td><pre>git log origin/&lt;local_branch&gt;..&lt;remote_branch&gt; \
+    --name-only --pretty="format:" | sort | uniq</pre></td>
     <td><pre></pre></td>
   </tr>
 
