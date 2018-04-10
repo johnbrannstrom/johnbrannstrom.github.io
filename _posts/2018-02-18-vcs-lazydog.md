@@ -102,6 +102,12 @@ image:
   </tr>
 
   <tr>
+    <td>Compare &lt;local_branch1&gt; to &lt;local_branch2&gt;</td>
+    <td><pre></pre></td>
+    <td><pre>hg diff -r &lt;local_branch1&gt;:&lt;local_branch2&gt;</pre></td>
+  </tr>
+
+  <tr>
     <td>List changed files comparing &lt;local_branch&gt; to &lt;remote_branch&gt;</td>
     <td><pre>git log origin/&lt;local_branch&gt;..&lt;remote_branch&gt; --name-only --pretty="format:" | sort | uniq</pre></td>
     <td><pre></pre></td>
