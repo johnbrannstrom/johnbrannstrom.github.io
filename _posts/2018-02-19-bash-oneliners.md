@@ -24,3 +24,6 @@ image:
 
 <h3>Set date and time</h3>
 <pre>date -s '2014-12-25 12:34:56'</pre>
+
+<h3>Copy SSH key</h3>
+<pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host<7pre>
