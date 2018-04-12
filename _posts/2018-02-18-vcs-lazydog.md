@@ -163,9 +163,9 @@ image:
   </tr>
 
   <tr>
-    <td>Reset local branch to &lt;remote_branch></td>
+    <td>Reset active local branch to &lt;remote_branch></td>
     <td><pre>git reset --hard origin/&lt;remote_branch&gt;</pre></td>
-    <td><pre></pre></td>
+    <td><pre>hg update -r &lt;remote_branch&gt; -C</pre></td>
   </tr>
 
   <tr>
