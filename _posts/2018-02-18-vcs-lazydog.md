@@ -90,12 +90,6 @@ image:
   </tr>
 
   <tr>
-    <td>Checkout and switch to &lt;remote_branch&gt;</td>
-    <td><pre>git checkout -b &lt;local_branch&gt; origin/&lt;remote_branch&gt;</pre></td>
-    <td><pre></pre></td>
-  </tr>
-
-  <tr>
     <td>Get single file from &lt;local_branch&gt;</td>
     <td><pre>git checkout &lt;local_branch&gt; &lt;path/to/file&gt;</pre></td>
     <td><pre></pre></td>
