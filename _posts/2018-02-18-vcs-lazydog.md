@@ -92,7 +92,7 @@ image:
   <tr>
     <td>Get single file from &lt;local_branch&gt;</td>
     <td><pre>git checkout &lt;local_branch&gt; &lt;path/to/file&gt;</pre></td>
-    <td><pre></pre></td>
+    <td><pre>hg diff -r &lt;source_branch&gt;:&lt;target_branch&gt; &lt;path/to/file&gt; > /tmp/hg.diff && hg import /tmp/hg.diff</pre></td>
   </tr>
 
   <tr>
