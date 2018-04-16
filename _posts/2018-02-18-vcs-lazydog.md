@@ -163,6 +163,12 @@ image:
   </tr>
 
   <tr>
+    <td>Store local changes</td>
+    <td><pre>git stash</pre></td>
+    <td><pre>hg shelve</pre></td>
+  </tr>
+
+  <tr>
     <td>Interattive stash</td>
     <td><pre>git stash --patch</pre></td>
     <td><pre></pre></td>
@@ -171,7 +177,7 @@ image:
   <tr>
     <td>Apply stash</td>
     <td><pre>git stash apply</pre></td>
-    <td><pre></pre></td>
+    <td><pre>hg unshelve</pre></td>
   </tr>
 
   <tr>
