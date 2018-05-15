@@ -43,7 +43,7 @@ image:
 
   <tr>
     <td>Merge <strong>all</strong> remote branches into local repo</td>
-    <td><pre>git pull</pre></td>
+    <td><pre>git pull --all</pre></td>
     <td><pre>hg pull -u</pre></td>
   </tr>
   
