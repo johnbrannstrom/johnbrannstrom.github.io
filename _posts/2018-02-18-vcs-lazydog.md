@@ -24,9 +24,15 @@ image:
   <tr><td>Add &lt;new_file&gt;</td><td><pre>git add &lt;new_file&gt;</pre></td><td><pre>hg add &lt;new_file&gt;</pre></td></tr>
 
   <tr>
-    <td>Commit changes with &lt;commit&gt; message</td>
-    <td><pre>git commit -m "&lt;commit&gt;"</pre></td>
-    <td><pre>hg commit -m "&lt;commit&gt;"</pre></td>
+    <td>Commit changes with &lt;message&gt;</td>
+    <td><pre>git commit -m "&lt;message&gt;"</pre></td>
+    <td><pre>hg commit -m "&lt;message&gt;"</pre></td>
+  </tr>
+
+  <tr>
+    <td>Close active branch</td>
+    <td><pre></pre></td>
+    <td><pre>hg commit -m "&lt;message&gt;" --close-branch </pre></td>
   </tr>
 
   <tr>
