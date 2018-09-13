@@ -55,4 +55,8 @@ except Exception:
     height="20px" src="/images/smiley.png">
   </p></li>
 
+  <li><p>
+    If you find yourself spending a lot of time on solving a bug in an unreleased project, ask yourself: <i>Can we leave this as is for now, waiting for that we may stumble upon the solution further down the road?</i>. The solution may come witout effort, with a bit of luck.
+  </p></li>
+
 </ol>
