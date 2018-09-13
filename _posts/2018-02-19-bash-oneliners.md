@@ -26,4 +26,10 @@ image:
 <pre>date -s '2014-12-25 12:34:56'</pre>
 
 <h3>Copy SSH key</h3>
-<pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host<7pre>
+<pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host</pre>
+
+<h3>Set password from script</h3>
+<pre>echo -e "secret\nsecret" | passwd username</pre>
+
+<h3>Allow SSH root login</h3>
+<pre>sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && systemctl restart ssh</pre>
