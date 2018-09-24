@@ -33,3 +33,6 @@ image:
 
 <h3>Allow SSH root login</h3>
 <pre>sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && systemctl restart ssh</pre>
+
+<h3>Print info leading up to udev device</h3>
+<pre>udevadm info -a -p $(udevadm info -q path -n /dev/&lt;device&gt;)</pre>
