@@ -21,3 +21,4 @@ image:
 
 <h3>Backup location</h3>
 <pre>/var/www/html/backup</pre>
+<pre>/root</pre>
