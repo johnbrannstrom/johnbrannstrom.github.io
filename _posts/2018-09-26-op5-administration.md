@@ -18,3 +18,6 @@ image:
 
 <h3>Backup OP5 configuration from command line</h3>
 <pre>op5-backup</pre>
+
+<h3>Backup location</h3>
+<pre>/var/www/html/backup</pre>
