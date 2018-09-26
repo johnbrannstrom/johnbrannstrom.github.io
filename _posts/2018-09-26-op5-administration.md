@@ -22,3 +22,6 @@ image:
 <h3>Backup location</h3>
 <pre>/var/www/html/backup</pre>
 <pre>/root</pre>
+
+<h3>Verify OP5 backup</h3>
+<pre>tar vft &lt;backup-file&gt;</pre>
