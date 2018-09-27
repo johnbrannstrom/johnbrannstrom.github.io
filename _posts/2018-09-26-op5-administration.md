@@ -25,3 +25,8 @@ image:
 
 <h3>Verify OP5 backup</h3>
 <pre>tar vft &lt;backup-file&gt;</pre>
+
+<h3>Upgrade OP5</h3>
+<pre>yum upgrade
+yum clean all
+yum upgrade</pre>
