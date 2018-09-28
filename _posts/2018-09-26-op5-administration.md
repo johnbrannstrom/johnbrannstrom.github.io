@@ -30,3 +30,6 @@ image:
 <pre>yum upgrade
 yum clean all
 yum upgrade</pre>
+
+<h3>Check connection to NRPE client</h3>
+<pre>/opt/plugins/check_nrpe -H &lt;host&gt;</pre>
