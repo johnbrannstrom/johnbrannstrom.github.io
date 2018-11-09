@@ -46,7 +46,13 @@ image:
 
   <tr>
     <td>Create user</td>
-    <td><pre>GRANT ALL PRIVILEGES ON *.* TO '&lt;user&gt'@'localhost'; IDENTIFIED BY '&lt;user&gt'</pre></td>
+    <td><pre>GRANT ALL PRIVILEGES ON *.* TO '&lt;user&gt'@'localhost'; IDENTIFIED BY '&lt;user&gt';</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
+    <td>Create database</td>
+    <td><pre>CREATE DATABASE &lt;database&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
 
