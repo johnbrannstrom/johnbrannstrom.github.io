@@ -80,4 +80,10 @@ image:
     <td><pre></pre></td>
   </tr>
 
+  <tr>
+    <td>Insert value</td>
+    <td><pre>INSERT INTO &lt;table_name&gt; (&lt;field1&gt;, &lt;field2&gt;) VALUES (&lt;value1&gt;, &lt;value2&gt;);</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
 </table>
