@@ -58,7 +58,7 @@ image:
 
   <tr>
     <td>Create user</td>
-    <td><pre>GRANT ALL PRIVILEGES ON *.* TO '&lt;user&gt;'@'localhost' IDENTIFIED BY '&lt;password&gt;';</pre></td>
+    <td><pre>GRANT ALL PRIVILEGES ON *.* TO '&lt;user&gt;'@'%' IDENTIFIED BY '&lt;password&gt;';</pre></td>
     <td><pre></pre></td>
   </tr>
 
