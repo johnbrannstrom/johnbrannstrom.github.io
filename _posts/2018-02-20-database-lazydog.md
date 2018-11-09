@@ -62,4 +62,10 @@ image:
     <td><pre></pre></td>
   </tr>
 
+  <tr>
+    <td>Create table</td>
+    <td><pre>CREATE TABLE &lt;table&gt; (&lt;value&gt; &lt;type&gt;, &lt;value&gt; &lt;type&gt;);</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
 </table>
