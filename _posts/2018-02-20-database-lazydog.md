@@ -46,7 +46,7 @@ image:
 
   <tr>
     <td>Print table info</td>
-    <td><pre></pre></td>
+    <td><pre>DESCRIBE &lt;table_name&gt;;</pre></td>
     <td><pre>\d+ &lt;table_name&gt;</pre></td>
   </tr>
 
