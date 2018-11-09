@@ -39,6 +39,12 @@ image:
   </tr>
 
   <tr>
+    <td>List tables</td>
+    <td><pre>SHOW TABLES;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>Print table info</td>
     <td><pre></pre></td>
     <td><pre>\d+ &lt;table_name&gt;</pre></td>
