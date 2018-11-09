@@ -22,13 +22,13 @@ image:
 
   <tr>
     <td>Connect</td>
-    <td><pre></pre></td><td>
+    <td><pre>mysql</pre></td><td>
     <pre>psql</pre></td>
   </tr>
 
   <tr>
     <td>Disconnect</td>
-    <td><pre></pre></td>
+    <td><pre>exit</pre></td>
     <td><pre>\q</pre></td>
   </tr>
 
@@ -42,6 +42,12 @@ image:
     <td>Print table info</td>
     <td><pre></pre></td>
     <td><pre>\d+ &lt;table_name&gt;</pre></td>
+  </tr>
+
+  <tr>
+    <td>Create user</td>
+    <td><pre>GRANT ALL PRIVILEGES ON *.* TO '&lt;user&gt'@'localhost'; IDENTIFIED BY '&lt;user&gt'</pre></td>
+    <td><pre></pre></td>
   </tr>
 
 </table>
