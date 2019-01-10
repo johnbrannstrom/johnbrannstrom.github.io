@@ -34,7 +34,7 @@ image:
 
   <tr>
     <td>List databases</td>
-    <td><pre></pre></td>
+    <td><pre>SHOW DATABASES;</pre></td>
     <td><pre>psql -U -l</pre></td>
   </tr>
 
