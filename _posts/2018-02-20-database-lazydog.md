@@ -81,7 +81,7 @@ image:
   </tr>
 
   <tr>
-    <td>Create table</td>
+    <td>Delete table</td>
     <td><pre>DROP TABLE &lt;table_name&gt;;</pre></td>
     <td><pre></pre></td>
   </tr>
