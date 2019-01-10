@@ -57,6 +57,12 @@ image:
   </tr>
 
   <tr>
+    <td>Run commands from file on database server</td>
+    <td><pre>mysql &lt; &lt;mysql_script_file&gt;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>Create user</td>
     <td><pre>GRANT ALL PRIVILEGES ON *.* TO '&lt;user&gt;'@'%' IDENTIFIED BY '&lt;password&gt;';</pre></td>
     <td><pre></pre></td>
