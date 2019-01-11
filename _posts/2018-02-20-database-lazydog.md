@@ -33,6 +33,12 @@ image:
   </tr>
 
   <tr>
+    <td>Safe shutdown database</td>
+    <td><pre>mysqladmin shutdown</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>Repair database</td>
     <td><pre>mysqlcheck --all-databases --auto-repair</pre></td>
     <td><pre></pre></td>
