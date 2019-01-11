@@ -33,6 +33,12 @@ image:
   </tr>
 
   <tr>
+    <td>Repair database</td>
+    <td><pre>mysqlcheck --all-databases --auto-repair</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>List databases</td>
     <td><pre>SHOW DATABASES;</pre></td>
     <td><pre>psql -U -l</pre></td>
