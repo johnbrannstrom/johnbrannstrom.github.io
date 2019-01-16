@@ -39,3 +39,6 @@ image:
 
 <h3>Print info leading up to udev device</h3>
 <pre>udevadm info -a -p $(udevadm info -q path -n /dev/&lt;device&gt;)</pre>
+
+<h3>Rsync files from local to remote directory</h3>
+<pre>rsync -avz -e ssh --progress &lt;local directory&gt; &lt;remote directory&gt; &lt;remote host&gt;@&lt;user&gt;:&lt;remote directory&gt;</pre>
