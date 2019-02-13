@@ -42,3 +42,6 @@ image:
 
 <h3>Rsync files from local to remote directory</h3>
 <pre>rsync -avz -e ssh --progress &lt;local directory&gt; &lt;user&gt;@&lt;remote host&gt;:&lt;remote directory&gt;</pre>
+
+<h3>Use Python pip with proxy</h3>
+<pre>pip install --proxy http://&lt;proxy host&gt;:&lt;proxy port&gt; &lt;package&gt;</pre>
