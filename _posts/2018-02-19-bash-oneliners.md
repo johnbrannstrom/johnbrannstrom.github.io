@@ -45,3 +45,12 @@ image:
 
 <h3>Use Python pip with proxy</h3>
 <pre>pip install --proxy http://&lt;proxy host&gt;:&lt;proxy port&gt; &lt;package&gt;</pre>
+
+<h3>Print fingerprint of GPG public key</h3>
+<pre>gpg --fry-run --import --import-options import-show &lt;public-key-file&gt;.asc</pre>
+
+<h3>Import GPG public key into keyring</h3>
+<pre>gpg --import &lt;public-key-file&gt;.asc</pre>
+
+<h3>Verify file with GPG signature</h3>
+<pre>gpg --verify &lt;signature-file&gt;.sig &lt;file-to-verify&gt;</pre>
