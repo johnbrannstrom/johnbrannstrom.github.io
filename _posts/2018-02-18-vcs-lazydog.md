@@ -199,4 +199,10 @@ image:
     <td><pre></pre></td>
   </tr>
 
+  <tr>
+    <td>Show addres to remote repository</td>
+    <td><pre>git config --get remote.origin.url</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
 </table>
