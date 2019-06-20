@@ -205,4 +205,10 @@ image:
     <td><pre></pre></td>
   </tr>
 
+  <tr>
+    <td>Rename local branch</td>
+    <td><pre>git branch -m &lt;old_local_branch&gt; &lt;new_local_branch&gt;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
 </table>
