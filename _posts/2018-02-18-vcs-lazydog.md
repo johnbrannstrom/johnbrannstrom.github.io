@@ -30,6 +30,12 @@ image:
   </tr>
 
   <tr>
+    <td>Edit most recent commit message</td>
+    <td><pre>git commit --amend</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>Close active branch</td>
     <td><pre></pre></td>
     <td><pre>hg commit -m "&lt;message&gt;" --close-branch </pre></td>
