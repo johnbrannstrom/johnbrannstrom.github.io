@@ -36,6 +36,17 @@ image:
   </tr>
 
   <tr>
+    <td>Squashing 4 commits</td>
+    <td><pre>git checkout mybranch
+git rebase -i mybranch~4 mybranch
+# at the interactive screen
+# choose fixup for commit: 2 / 3 / 4
+git push -u origin +mybranch
+</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>Close active branch</td>
     <td><pre></pre></td>
     <td><pre>hg commit -m "&lt;message&gt;" --close-branch </pre></td>
