@@ -37,11 +37,9 @@ image:
 
   <tr>
     <td>Squashing 4 commits</td>
-    <td><pre>git checkout mybranch
-git rebase -i mybranch~4 mybranch
-# at the interactive screen
-# choose fixup for commit: 2 / 3 / 4
-git push -u origin +mybranch
+    <td><pre>git checkout &lt;branch&gt;
+git rebase -i &lt;branch&gt;~4 &lt;branch&gt;
+git push -u origin +&lt;branch&gt;
 </pre></td>
     <td><pre></pre></td>
   </tr>
