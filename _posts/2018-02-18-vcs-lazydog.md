@@ -30,8 +30,14 @@ image:
   </tr>
 
   <tr>
-    <td>Edit most recent commit message</td>
+    <td>Edit most recent unpushed commit</td>
     <td><pre>git commit --amend</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
+    <td>Edit most recent unpushed commit message</td>
+    <td><pre>git reset HEAD^</pre></td>
     <td><pre></pre></td>
   </tr>
 
