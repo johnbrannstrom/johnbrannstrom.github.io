@@ -36,6 +36,13 @@ image:
   </tr>
 
   <tr>
+    <td>Rebase &lt;local_branch1&gt; to &lt;remote_branch2&gt;</td>
+    <td><pre>git checkout &lt;local_branch&gt;
+git rebase origin/&lt;remote_branch&gt;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>Squashing 2 commits on &lt;branch&gt;</td>
     <td><pre>git checkout &lt;branch&gt;
 git rebase -i &lt;branch&gt;~2 &lt;branch&gt;
