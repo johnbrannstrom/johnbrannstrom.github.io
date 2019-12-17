@@ -30,13 +30,13 @@ image:
   </tr>
 
   <tr>
-    <td>Edit most recent unpushed commit</td>
+    <td>Edit most recent unpushed commit message</td>
     <td><pre>git commit --amend</pre></td>
     <td><pre></pre></td>
   </tr>
 
   <tr>
-    <td>Edit most recent unpushed commit message</td>
+    <td>Edit most recent unpushed commit</td>
     <td><pre>git reset HEAD^</pre></td>
     <td><pre></pre></td>
   </tr>
@@ -49,20 +49,18 @@ git rebase origin/&lt;remote_branch&gt;</pre></td>
   </tr>
 
   <tr>
-    <td>Squashing 2 commits on &lt;branch&gt;</td>
+    <td>Squashing 2 pushed commits on &lt;branch&gt;</td>
     <td><pre>git checkout &lt;branch&gt;
 git rebase -i &lt;branch&gt;~2 &lt;branch&gt;
-git push -u origin +&lt;branch&gt;
-</pre></td>
+git push -u origin +&lt;branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
 
   <tr>
-    <td>All commits after &lt;commit id&gt; &lt;branch&gt;</td>
+    <td>Squashing all pushed commits after &lt;commit id&gt; &lt;branch&gt;</td>
     <td><pre>git checkout &lt;branch&gt;
 git rebase -i &lt;commit id&gt;
-git push -u origin +&lt;branch&gt;
-</pre></td>
+git push -u origin +&lt;branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
 
