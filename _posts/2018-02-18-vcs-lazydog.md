@@ -36,7 +36,7 @@ image:
   </tr>
 
   <tr>
-    <td>Rebase &lt;local_branch1&gt; to &lt;remote_branch2&gt;</td>
+    <td>Rebase &lt;local_branch&gt; to &lt;remote_branch&gt;</td>
     <td><pre>git checkout &lt;local_branch&gt;
 git rebase origin/&lt;remote_branch&gt;</pre></td>
     <td><pre></pre></td>
