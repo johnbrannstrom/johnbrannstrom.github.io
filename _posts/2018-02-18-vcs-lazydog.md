@@ -244,7 +244,7 @@ git push -u origin +&lt;branch&gt;</pre></td>
     <td>Set url to remote repository</td>
     <td><pre>git remote set-url origin ssh://git@&lt;host&gt;:&lt;port&gt;/&lt;path&gt;</pre></td>
     <td><pre></pre></td>
-  </tr
+  </tr>
 
   <tr>
     <td>Rename local branch</td>
