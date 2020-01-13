@@ -44,7 +44,8 @@ image:
   <tr>
     <td>Rebase &lt;local_branch&gt; to &lt;remote_branch&gt;</td>
     <td><pre>git checkout &lt;local_branch&gt;
-git rebase origin/&lt;remote_branch&gt;</pre></td>
+git rebase origin/&lt;remote_branch&gt;
+git push -u origin +&lt;local_branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
 
