@@ -57,5 +57,5 @@ image:
 
 <h3>Auto login Raspberry PI</h3>
 <pre>
-echo "[Service]\nExecStart=\nExecStart=-/sbin/agetty --autologin &lt;user&gt; --noclear %I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf && systemctl enable getty@tty1.service
+echo -e "[Service]\nExecStart=\nExecStart=-/sbin/agetty --autologin &lt;user&gt; --noclear %I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf && systemctl enable getty@tty1.service
 </pre>
