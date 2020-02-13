@@ -54,3 +54,8 @@ image:
 
 <h3>Verify file with GPG signature</h3>
 <pre>gpg --verify &lt;signature-file&gt;.sig &lt;file-to-verify&gt;</pre>
+
+<h3>Auto login Raspberry PI</h3>
+<pre>
+echo "[Service]\nExecStart=\nExecStart=-/sbin/agetty --autologin &lt;user&gt; --noclear %I 38400 linux" > /etc/systemd/system/getty@tty1.service.d/autologin.conf && systemctl enable getty@tty1.service
+</pre>
