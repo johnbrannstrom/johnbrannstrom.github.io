@@ -11,7 +11,7 @@ tags:
 #
 image:
   header: ""
-  thumb: "redhat-centos-thumb.jpg"
+  thumb: "redhat-centos-thumb.png"
   homepage: ""
   url: "https://johnbrannstrom.github.io/images/"
 ---
