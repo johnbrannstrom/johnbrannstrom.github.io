@@ -2,7 +2,7 @@
 layout: page-fullwidth
 header:
   image_fullwidth: john-screen-header.gif
-title: "CentOS administration"
+title: "RedHat and CentOS administration"
 teaser: "Lazy dog and short guides for working with a CentOS system."
 tags:
   - Linux system administration
@@ -11,7 +11,7 @@ tags:
 #
 image:
   header: ""
-  thumb: "centos-thumb.jpg"
+  thumb: "redhat-centos-thumb.jpg"
   homepage: ""
   url: "https://johnbrannstrom.github.io/images/"
 ---
