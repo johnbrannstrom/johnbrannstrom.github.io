@@ -27,3 +27,6 @@ image:
 
 <h3>Print ip address in CentOS 8</h3>
 <pre>ip addr</pre>
+
+<h3>Restart network service (renew DHCP lease) in CentOS 8</h3>
+<pre>systemctl restart NetworkManager</pre>
