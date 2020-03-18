@@ -22,8 +22,11 @@ image:
 <h3>Set no proxy for package management tool (yum) in CentOS 7</h3>
 <pre>echo "proxy=_none_" >> /etc/yum.repos.d/&lt;repo_file&gt;.repo</pre>
 
-<h3>Fix for CentOS terminal line length in WSL (Windows Sybsystem for Linux)</h3>
+<h3>Fix for CentOS 7 terminal line length in WSL (Windows Sybsystem for Linux)</h3>
 <pre>export TERM=linux</pre>
+
+<h3>Fix for CentOS 8 terminal line length in WSL (Windows Sybsystem for Linux)</h3>
+<pre>export TERM=xterm-color</pre>
 
 <h3>Print ip address in CentOS 8</h3>
 <pre>ip addr</pre>
