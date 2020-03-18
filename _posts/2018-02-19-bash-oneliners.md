@@ -54,3 +54,6 @@ image:
 
 <h3>Verify file with GPG signature</h3>
 <pre>gpg --verify &lt;signature-file&gt;.sig &lt;file-to-verify&gt;</pre>
+
+<h3>Delete by inode number</h3>
+<pre>find . -inum &lt;inum&gt;  -exec rm -ir {} \;</pre>
