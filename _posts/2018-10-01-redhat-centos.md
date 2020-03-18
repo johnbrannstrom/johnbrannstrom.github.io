@@ -24,3 +24,6 @@ image:
 
 <h3>Fix for CentOS terminal line length in WSL (Windows Sybsystem for Linux)</h3>
 <pre>export TERM=linux</pre>
+
+<h3>Print ip address in CentOS 8</h3>
+<pre>ip addr</pre>
