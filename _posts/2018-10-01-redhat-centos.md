@@ -33,3 +33,6 @@ image:
 
 <h3>Restart network service (renew DHCP lease) in CentOS 8</h3>
 <pre>systemctl restart NetworkManager</pre>
+
+<h3>Print dnf mirrors</h3>
+<pre>dnf -v repolist enabled</pre>
