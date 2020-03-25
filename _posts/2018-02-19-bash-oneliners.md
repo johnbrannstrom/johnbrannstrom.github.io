@@ -59,4 +59,4 @@ image:
 <pre>find . -inum &lt;inum&gt;  -exec rm -ir {} \;</pre>
 
 <h3>Convert .crt to .pem</h3>
-<pre>openssl x509 -in &lt;mycert.crt&gt; -out &lt;mycert.pem&gt; -outform PEM;</pre>
+<pre>openssl x509 -in &lt;mycert&gt;.crt -out &lt;mycert&gt;.pem -outform PEM;</pre>
