@@ -60,3 +60,6 @@ image:
 
 <h3>Convert .crt to .pem</h3>
 <pre>openssl x509 -in &lt;mycert&gt;.crt -out &lt;mycert&gt;.pem -outform PEM;</pre>
+
+<h3>Get SSL cert from remote HTTPS host</h3>
+<pre>echo | openssl s_client -showcerts -servername &lt;host&gt; -connect &lt;host&gt;:443 2>/dev/null | awk '/-----BEGIN CERTIFICATE-----/, /-----END CERTIFICATE-----/'</pre>
