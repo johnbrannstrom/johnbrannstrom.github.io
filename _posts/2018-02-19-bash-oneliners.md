@@ -25,11 +25,17 @@ image:
 <h3>Set date and time</h3>
 <pre>date -s '2014-12-25 12:34:56'</pre>
 
-<h3>Create SSH key</h3>
+<h3>Create RSA key</h3>
 <pre>ssh-keygen -t rsa -b &lt;bits&gt;</pre>
 
-<h3>Copy SSH key</h3>
+<h3>Copy RSA key with SSH</h3>
 <pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host</pre>
+
+<h3>Generate SSL key</h3>
+<pre>openssl genrsa -out &lt;key_file&gt;.key 2048</pre>
+
+<h3>Generate SSL certificate from key</h3>
+<pre>openssl req -days &lt;valid time in days&gt; -x509 -new -nodes -key &lt;key_file&gt;.key -sha256 -out &lt;cert_file&gt;.crt -subj "/C=&lt;Country Name (2 letter code)&gt;/ST=&lt;State or Province Name (full name)&gt;/L=&lt;Locality Name (eg, city)&gt;/CN=&lt;Common Name (eg, your name or your server's hostname)&gt;/emailAddress=&lt;email address&gt;"</pre>
 
 <h3>Set password from script</h3>
 <pre>echo -e "secret\nsecret" | passwd username</pre>
