@@ -25,10 +25,10 @@ image:
 <h3>Set date and time</h3>
 <pre>date -s '2014-12-25 12:34:56'</pre>
 
-<h3>Create RSA key</h3>
+<h3>Create SSH RSA key</h3>
 <pre>ssh-keygen -t rsa -b &lt;bits&gt;</pre>
 
-<h3>Copy RSA key with SSH</h3>
+<h3>Copy SSH RSA key with SSH</h3>
 <pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host</pre>
 
 <h3>Generate SSL key</h3>
