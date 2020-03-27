@@ -37,5 +37,5 @@ image:
 <h3>Print dnf mirrors</h3>
 <pre>dnf -v repolist enabled</pre>
 
-<h3>Add trusted pem format certificate in CentOS 8</h3>
+<h3>Add trusted PEM format certificate in CentOS 8</h3>
 <pre>cp &lt;cert_file&gt;.crt /etc/pki/ca-trust/source/anchors/&lt;cert_file&gt;.crt && update-ca-trust extract</pre>
