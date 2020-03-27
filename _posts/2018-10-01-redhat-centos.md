@@ -38,4 +38,4 @@ image:
 <pre>dnf -v repolist enabled</pre>
 
 <h3>Add certificate to trust in CentOS 8</h3>
-<pre>cp &lt;cert_file&gt;.crt /etc/pki/tls/certs/&lt;cert_file&gt;.crt && update-ca-trust enable && update-ca-trust extract</pre>
+<pre>cp &lt;cert_file&gt;.crt /etc/pki/ca-trust/source/anchors/&lt;cert_file&gt;.crt && update-ca-trust enable && update-ca-trust extract</pre>
