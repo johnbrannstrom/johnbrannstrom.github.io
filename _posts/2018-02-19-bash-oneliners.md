@@ -28,7 +28,7 @@ image:
 <h3>Create SSH RSA key</h3>
 <pre>ssh-keygen -t rsa -b &lt;bits&gt;</pre>
 
-<h3>Copy SSH RSA key with SSH</h3>
+<h3>Copy SSH RSA key to remote user@host</h3>
 <pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host</pre>
 
 <h3>Generate SSL key</h3>
