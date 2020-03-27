@@ -26,7 +26,7 @@ image:
 <pre>date -s '2014-12-25 12:34:56'</pre>
 
 <h3>Create SSH RSA key</h3>
-<pre>ssh-keygen -t rsa -b &lt;bits&gt;</pre>
+<pre>ssh-keygen -t rsa -f &lt;/path/to/key/file&gt; -N ''-b &lt;bits&gt;</pre>
 
 <h3>Copy SSH RSA key to remote user@host (with SSH)</h3>
 <pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host</pre>
