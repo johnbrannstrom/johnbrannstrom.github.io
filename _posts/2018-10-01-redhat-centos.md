@@ -39,3 +39,9 @@ image:
 
 <h3>Add trusted PEM format certificate in CentOS 8</h3>
 <pre>cp &lt;cert_file&gt;.crt /etc/pki/ca-trust/source/anchors/&lt;cert_file&gt;.crt && update-ca-trust extract</pre>
+
+<h3>Mount and use CentOS 7 iso as repository</h3>
+<pre>mkdir /media/CentOS
+mount -o loop,ro &lt;/full/path/and/name/of/iso/file&gt; /media/CentOS/
+mv /etc/yum.repos.d/* /tmp/
+mv /tmp/CentOS-Media.repo /etc/yum.repos.d/CentOS-Media.repo</pre>
