@@ -45,3 +45,15 @@ image:
 mount -o loop,ro &lt;/full/path/and/name/of/iso/file&gt; /media/CentOS/
 mv /etc/yum.repos.d/* /tmp/
 mv /tmp/CentOS-Media.repo /etc/yum.repos.d/CentOS-Media.repo</pre>
+
+<h3>Import GPG key for use with rpm/yum/dnf</h3>
+<pre>rpm --import /etc/pki/rpm-gpg/&lt;key file&gt;</pre>
+
+<h3>Print imported GPG keys</h3>
+<pre>rpm -qa gpg-pubkey*</pre>
+
+<h3>Delete rpm GPG key</h3>
+<pre>rpm -e gpg-pubkey-&lt;key id&gt;</pre>
+
+<h3>Verify package rpm with GPG key</h3>
+<pre>rpm -K &lt;/full/path/and/name/of/package/file&gt;</pre>
