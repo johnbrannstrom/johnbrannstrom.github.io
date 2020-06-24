@@ -57,3 +57,9 @@ mv /tmp/CentOS-Media.repo /etc/yum.repos.d/CentOS-Media.repo</pre>
 
 <h3>Verify package rpm with GPG key</h3>
 <pre>rpm -K &lt;/full/path/and/name/of/package/file&gt;</pre>
+
+<h3>Temporarily add static route</h3>
+<pre>ip route add &lt;net address&gt;/&lt;mask bits&gt; via &lt;gateway address&gt; dev eth&lt;number&gt;</pre>
+
+<h3>Permanently add static route</h3>
+<pre>echo "&lt;net address&gt;/&lt;mask bits&gt; via &lt;gateway address&gt; dev eth&lt;number&gt;" &gt;&gt; /etc/sysconfig/network-scripts/route-eth&lt;number&gt; && systemctl restart network</pre>
