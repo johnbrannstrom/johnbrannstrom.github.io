@@ -63,3 +63,9 @@ mv /tmp/CentOS-Media.repo /etc/yum.repos.d/CentOS-Media.repo</pre>
 
 <h3>Permanently add static route</h3>
 <pre>echo "&lt;net address&gt;/&lt;mask bits&gt; via &lt;gateway address&gt; dev eth&lt;number&gt;" &gt;&gt; /etc/sysconfig/network-scripts/route-eth&lt;number&gt; && systemctl restart network</pre>
+
+<h3>Hammer password file (In case of error: "Unable to authenticate user admin")</h3>
+<pre>/root/.hammer/cli.modules.d/foreman.yml</pre>
+
+<h3>Check Satellite status</h3>
+<pre>foreman-maintain health check</pre>
