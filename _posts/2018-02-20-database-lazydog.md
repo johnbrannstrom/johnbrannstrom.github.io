@@ -108,7 +108,7 @@ image:
     <td>Delete table</td>
     <td><pre>DROP TABLE &lt;table_name&gt;;</pre></td>
     <td><pre></pre></td>
-    <td><pre></pre></td>
+    <td><pre>DROP TABLE &lt;table_name&gt;;</pre></td>
   </tr>
 
   <tr>
