@@ -66,7 +66,7 @@ image:
     <td>Print table info</td>
     <td><pre>DESCRIBE &lt;table_name&gt;;</pre></td>
     <td><pre>\d+ &lt;table_name&gt;</pre></td>
-    <td><pre></pre></td>
+    <td><pre>.schema &lt;table_name&gt;</pre></td>
   </tr>
 
   <tr>
