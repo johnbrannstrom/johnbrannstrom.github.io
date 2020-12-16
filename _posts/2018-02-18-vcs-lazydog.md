@@ -42,6 +42,12 @@ image:
   </tr>
 
   <tr>
+    <td>Create change to remove commit with &lt;hash&gt;</td>
+    <td><pre>git revert &lt;hash&gt;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+
+  <tr>
     <td>Rebase &lt;local_branch&gt; to &lt;remote_branch&gt;</td>
     <td><pre>git checkout &lt;local_branch&gt;
 git rebase origin/&lt;remote_branch&gt;
