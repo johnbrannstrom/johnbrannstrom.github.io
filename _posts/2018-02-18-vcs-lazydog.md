@@ -259,4 +259,12 @@ git push -u origin +&lt;branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
 
+  <tr>
+    <td>Rebase to branch</td>
+    <td><pre>git checkout &lt;rebase_to_local_branch&gt; && git pull
+git checkout &lt;rebase_from_local_branch&gt;
+git rebase -i &lt;origin/&gt; &lt;new_local_branch&gt;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+  
 </table>
