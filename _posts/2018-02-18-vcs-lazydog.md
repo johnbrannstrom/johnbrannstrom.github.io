@@ -267,4 +267,10 @@ git rebase -i &lt;to_local_branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
   
+  <tr>
+    <td>Uncommit latest changes</td>
+    <td><pre>git reset --soft HEAD~1</pre></td>
+    <td><pre></pre></td>
+  </tr>
+  
 </table>
