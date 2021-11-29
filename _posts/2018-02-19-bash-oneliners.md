@@ -69,3 +69,9 @@ image:
 
 <h3>Get SSL cert from remote HTTPS host</h3>
 <pre>echo | openssl s_client -showcerts -servername &lt;host&gt; -connect &lt;host&gt;:443 2>/dev/null | awk '/-----BEGIN CERTIFICATE-----/, /-----END CERTIFICATE-----/'</pre>
+
+<h3>Tar directory</h3>
+<pre>tar -C &lt;dir&gt; -cvf /&lt;file.tar&gt; .</pre>
+
+<h3>Untar tarball</h3>
+<pre>tar -xvf &lt;file&gt;.tar</pre>
