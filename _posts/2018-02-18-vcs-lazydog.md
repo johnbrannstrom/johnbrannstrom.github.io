@@ -273,4 +273,10 @@ git rebase -i &lt;to_local_branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
   
+  <tr>
+    <td>Update file permission in repository</td>
+    <td><pre>git update-index --chmod=+x &lt;file&gt;</pre></td>
+    <td><pre></pre></td>
+  </tr>
+  
 </table>
