@@ -36,6 +36,12 @@ image:
   </tr>
 
   <tr>
+    <td>add changed to most recent commit</td>
+    <td><pre>git add . && git commit --amend -C HEAD</pre></td>
+    <td><pre></pre></td>
+  </tr>
+  
+  <tr>
     <td>Edit most recent unpushed commit</td>
     <td><pre>git reset HEAD^</pre></td>
     <td><pre></pre></td>
