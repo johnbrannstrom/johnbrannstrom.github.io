@@ -31,6 +31,9 @@ image:
 <h3>Copy SSH RSA key to remote user@host (with SSH)</h3>
 <pre>ssh-copy-id -i &lt;path/name/to/key/file&gt; user@host</pre>
 
+<h3>Generate public key from private</h3>
+<pre>ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub</pre>
+
 <h3>Generate SSL key</h3>
 <pre>openssl genrsa -out &lt;key_file&gt;.key 2048</pre>
 
