@@ -291,4 +291,10 @@ git rebase -i &lt;to_local_branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
   
+  <tr>
+    <td>Set username</td>
+    <td><pre>git config --global user.name "&lt;username&gt;"</pre></td>
+    <td><pre></pre></td>
+  </tr>
+  
 </table>
