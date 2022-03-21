@@ -285,4 +285,10 @@ git rebase -i &lt;to_local_branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
   
+  <tr>
+    <td>Set email adress</td>
+    <td><pre>git config --global user.email "&lt;name@domain.com&gt;"</pre></td>
+    <td><pre></pre></td>
+  </tr>
+  
 </table>
