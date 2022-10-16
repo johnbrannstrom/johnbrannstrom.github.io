@@ -297,4 +297,10 @@ git rebase -i &lt;to_local_branch&gt;</pre></td>
     <td><pre></pre></td>
   </tr>
   
+  <tr>
+    <td>Update and init repository submodules</td>
+    <td><pre>git submodule update --init</pre></td>
+    <td><pre></pre></td>
+  </tr>
+  
 </table>

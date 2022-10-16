@@ -1,0 +1,92 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="80" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="JSUnresolvedVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="type" />
+          <option value="dir" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.control_car.bricknil" />
+          <option value="settings.Settings.MESSAGE_LOG" />
+          <option value="settings.Settings.ERROR_LOG" />
+          <option value="settings.Settings.FLASK_TEMPLATE_DIR" />
+          <option value="settings.Settings.FLASK_static_DIR" />
+          <option value="settings.Settings.FLASK_STATIC_DIR" />
+          <option value="settings.Settings.SQLITE_FILE" />
+          <option value="flaskserver.RequestHandler.SQLITE_FILE" />
+          <option value="flaskserver.RequestHandler.SYSTEM_LOG" />
+          <option value="flaskserver.RequestHandler.LOG_VERBOSITY" />
+          <option value="settings.Settings.SQLITE_DIR" />
+          <option value="export_db.Main.SQLITE_FILE" />
+          <option value="dbman.Main.SQLITE_FILE" />
+          <option value="dbman.Main.SQLITE_DIR" />
+          <option value="settings.Settings.DATE_TIME_FORMAT" />
+          <option value="settings.Settings.LOG_VERBOSITY" />
+          <option value="settings.Settings.REACT_DIR" />
+          <option value="dbman.Main.DATE_TIME_FORMAT" />
+          <option value="init_database.InitDatabase.SQLITE_DIR" />
+          <option value="init_database.InitDatabase.SQLITE_FILE" />
+          <option value="avanza.AvanzaImport.DATE_TIME_FORMAT" />
+          <option value="str.in_" />
+          <option value="settings.Settings.TEST_DB_EXPORT" />
+          <option value="test.systest.SysTest.TEST_DB_EXPORT" />
+          <option value="settings.Settings.SYSTEM_LOG" />
+          <option value="settings.Settings.BORSDATA_API_KEY" />
+          <option value="settings.Settings.BORSDATA_API_VERSION" />
+          <option value="settings.Settings.BORSDATA_ADDRESS" />
+          <option value="borsdata_cronjob.Main.ERROR_LOG" />
+          <option value="borsdata_cronjob.Main.LOG_VERBOSITY" />
+          <option value="borsdata_cronjob.Main.SYSTEM_LOG" />
+          <option value="borsdata_cronjob.Main.BORSDATA_API_KEY" />
+          <option value="borsdata_cronjob.Main.BORSDATA_API_VERSION" />
+          <option value="borsdata_cronjob.Main.BORSDATA_ADDRESS" />
+          <option value="borsdata_share_tickers.Main.ERROR_LOG" />
+          <option value="borsdata_share_tickers.Main.LOG_VERBOSITY" />
+          <option value="borsdata_share_tickers.Main.SYSTEM_LOG" />
+          <option value="borsdata_share_tickers.Main.BORSDATA_API_KEY" />
+          <option value="borsdata_share_tickers.Main.BORSDATA_API_VERSION" />
+          <option value="borsdata_share_tickers.Main.BORSDATA_ADDRESS" />
+          <option value="borsdata_get_tickers.Main.BORSDATA_API_KEY" />
+          <option value="borsdata_get_tickers.Main.BORSDATA_API_VERSION" />
+          <option value="borsdata_get_tickers.Main.BORSDATA_ADDRESS" />
+          <option value="borsdata_get_tickers.Main.ERROR_LOG" />
+          <option value="borsdata_get_tickers.Main.LOG_VERBOSITY" />
+          <option value="borsdata_get_tickers.Main.SYSTEM_LOG" />
+          <option value="settings.Settings.BORSDATA_DAILY" />
+          <option value="settings.Settings.BORSDATA_LONG_INTERVAL" />
+          <option value="settings.Settings.BORSDATA_DAYS" />
+          <option value="settings.Settings.DATE_FORMAT" />
+          <option value="avanza_get_tickers.Main.ERROR_LOG" />
+          <option value="avanza_get_tickers.Main.LOG_VERBOSITY" />
+          <option value="avanza_get_tickers.Main.SYSTEM_LOG" />
+          <option value="avanza_get_tickers.Main.AVANZA_DATE_TIME_FORMAT" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
+      <shellcheck_settings value="SC2181" />
+    </inspection_tool>
+    <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
