@@ -59,4 +59,12 @@ except Exception:
     If you find yourself spending a lot of time on solving a bug in an unreleased project, ask yourself: <i>Can we leave this as is for now, waiting for that we may stumble upon the solution further down the road?</i>. The solution may come witout effort, with a bit of luck.
   </p></li>
 
+  <li><p>
+    A class that handles <i>get</i> (and <i>post</i>/<i>put</i>) requests to a HTTP API should <strong>always</strong> cache get requests in memory. This will enable a completely different program structure as all parts of the program will be able to get every request directly from the API as most of the requests will be served directly from memory. The easiest solution to handle <i>post</i>/<i>put</i> requests is to just clear the cache.
+  </p></li>
+
+  <li><p>
+    Complex functionality that needs testing can be isolated in a static function (or class) for easier testing.
+  </p></li>
+
 </ol>
