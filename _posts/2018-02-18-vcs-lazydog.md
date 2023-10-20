@@ -302,5 +302,11 @@ git rebase -i &lt;to_local_branch&gt;</pre></td>
     <td><pre>git submodule update --init</pre></td>
     <td><pre></pre></td>
   </tr>
+
+  <tr>
+    <td>Delete untracked files</td>
+    <td><pre>git clean -f</pre></td>
+    <td><pre></pre></td>
+  </tr>
   
 </table>
