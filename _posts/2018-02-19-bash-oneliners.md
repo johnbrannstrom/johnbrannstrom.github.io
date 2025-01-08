@@ -78,3 +78,6 @@ image:
 
 <h3>Untar tarball</h3>
 <pre>tar -xvf &lt;file&gt;.tar</pre>
+
+<h3>Run command in background without logging</h3>
+<pre>nohup bash -c "&lt;command&gt; &&gt;&gt; /dev/null &"</pre>
